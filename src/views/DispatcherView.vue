@@ -1,16 +1,37 @@
 <template>
     <div id="orders">
+
       <div id="orderList">
-        <div v-for="(order, key) in orders" v-bind:key="'order'+key">
-          #{{ key }}: {{ order.orderItems.join(", ") }}
+        <div v-for="(order, key) in orders" :key="'order' + key">
+          <div>#{{ key }}:</div>
+          <ul>
+            <!-- amount = antal, name = key in the object -->
+            <li v-for="(amount, name) in order.orderItems" :key="name">
+              {{ name }}: {{ amount }}
+            </li>
+          </ul>
+
+            <p>
+                Name: {{ order.customer.name }}<br>
+                Email: {{ order.customer.email }}<br>
+                Gender: {{ order.customer.gender }}<br>
+                Payment: {{ order.customer.payment }}
+              </p>
         </div>
+
         <button v-on:click="clearQueue">Clear Queue</button>
       </div>
+
       <div id="dots">
-          <div v-for="(order, key) in orders" v-bind:style="{ left: order.details.x + 'px', top: order.details.y + 'px'}" v-bind:key="'dots' + key">
-            {{ key }}
-          </div>
+        <div
+          v-for="(order, key) in orders"
+          :style="{ left: order.details.x + 'px', top: order.details.y + 'px' }"
+          :key="'dots' + key"
+        >
+          {{ key }}
+        </div>
       </div>
+
     </div>
   </template>
   <script>

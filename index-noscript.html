@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="public/css/style.css"> 
+    <title>SweetsOnline</title>
+    <meta charset="utf-8"/>
+</head>
+
+<body>
+
+    <header id="headerGroup">
+        <img src ="https://thumbs.dreamstime.com/b/wide-facebook-banner-image-piece-delicious-dark-chocolate-cake-covered-fruits-chocolate-topping-black-plate-296415709.jpg" alt="Header image">
+        <h1>Welcome to SweetsOnline</h1>
+    </header>
+
+    <main>
+        <section id="cakes">
+    <h2>Select your cake</h2>
+    <p>Here you can choose which cake you want to order.</p>
+
+    <!-- Viktigt: denna div har class="cakes-grid" -->
+    <div class="cakes-grid">
+        <div class="cake">
+            <h3>Chocolate Cake</h3>
+            <img src="https://www.lifeloveandsugar.com/wp-content/uploads/2014/08/Best-Moist-Chocolate-Cake1-1.jpg" alt="Chocolate cake">
+            <ul>
+                <li>8 pieces - 499kr</li>
+                <li>Choclate cake with ganache filling</li>
+                <li><span class="allergies">Contains lactose</span></li>
+                <li><span class="allergies">Contains egg</span></li>
+            </ul>
+        </div>
+
+        <div class="cake">
+            <h3>Strawberry Cake</h3>
+            <img src="https://mrcake.se/img/bilder/artiklar/zoom/220027_1.jpg?m=1744810344" alt="Strawberry cake">
+            <ul>
+                <li>8 pieces - 449kr</li>
+                <li>Strawberry cake with vanilla filling</li>
+                <li><span class="allergies">Lactose free</span></li>
+                <li><span class="allergies">Contains egg</span></li>
+            </ul>
+        </div>
+
+        <div class="cake">
+            <h3>Birthday Cake</h3>
+            <img src="https://curlygirlkitchen.com/wp-content/uploads/2023/03/Pastel-Party-Birthday-Cake-Spring-Lambeth-Vintage-Piping-High-Altitude-003.jpg" alt="Birthday cake">
+            <ul>
+                <li>5 pieces - 599kr</li>
+                <li>Raspberry filling</li>
+                <li><span class="allergies">Contains lactose</span></li>
+                <li><span class="allergies">Contains egg</span></li>
+            </ul>
+        </div>
+    </div>
+        </section>
+
+
+    <section id="contact">
+    <form>
+        <h2>Customer information</h2>
+        <p>Please enter your delivery address and contact information.</p>
+
+        <h3>Delivery information</h3>
+
+        <p>
+            <label for="full-name">Full name</label><br>
+            <input type="text" id="full-name" name="fn" required placeholder="First and Last name">
+        </p>
+
+        <p>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="em" required placeholder="E-mail address">
+        </p>
+
+        <p>
+            <label for="streetname">Street</label><br>
+            <input type="text" id="streetname" name="sn" required placeholder="Street name">
+        </p>
+
+        <p>
+            <label for="housenumber">House</label><br>
+            <input type="number" id="housenumber" name="hn" required placeholder="House number">
+        </p>
+
+        <p>
+            <label for="payment-method">Payment mnethod</label><br>
+            <select id="payment-method" name="pmm">
+                <option>Swish</option>
+                <option>Klarna</option>
+                <option>Nordea</option>
+                <option>Swedbank</option>
+                <option>Invoice</option>
+            </select>
+        </p>
+
+        <h3>Gender</h3>
+        <p>
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="male">Male</label>
+        </p>
+
+        <p>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </p>
+
+         <p>
+            <input type="radio" id="non-binary" name="gender" value="non-binary">
+            <label for="non-binary">Non-binary</label>
+        </p>
+
+        <p>
+            <input type="radio" id="no-answer" name="gender" value="na">
+            <label for="no-answer">Prefer not to say</label>
+        </p>
+
+    </form>
+
+</section>
+
+
+    </main>
+
+    <button type="submit">
+        <img src="https://img.freepik.com/premium-vector/hand-drawn-cake-cake-vector-illustration_99338-166.jpg" 
+            alt="Send order" 
+            style="width: 40px;">
+        Submit Order
+    </button>
+
+    <hr> <!-- to seperate the footer from the rest of the website -->
+    <footer>
+        <!-- You can add footer content here later -->
+    </footer>
+
+</body>
+</html>

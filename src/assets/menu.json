@@ -1,21 +1,29 @@
-[{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-}]
+[
+  {
+    "name": "Chocolate cake",
+    "img": "https://www.lifeloveandsugar.com/wp-content/uploads/2014/08/Best-Moist-Chocolate-Cake1-1.jpg",
+    "kCal": 3500,
+    "gluten": true,
+    "lactose": true,
+    "price": "8 pieces - 499kr",
+    "description": "Chocolate cake with ganache filling"
+  },
+  {
+    "name": "Strawberry cake",
+    "img": "https://mrcake.se/img/bilder/artiklar/zoom/220027_1.jpg?m=1744810344",
+    "kCal": 2800,
+    "gluten": true,
+    "lactose": false,
+    "price": "8 pieces - 449kr",
+    "description": "Strawberry cake with vanilla filling"
+  },
+  {
+    "name": "Birthday cake",
+    "img": "https://curlygirlkitchen.com/wp-content/uploads/2023/03/Pastel-Party-Birthday-Cake-Spring-Lambeth-Vintage-Piping-High-Altitude-003.jpg",
+    "kCal": 2500,
+    "gluten": true,
+    "lactose": true,
+    "price": "5 pieces - 599kr",
+    "description": "Raspberry filling"
+  }
+]
